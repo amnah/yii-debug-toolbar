@@ -42,11 +42,11 @@ See [images](#images) below for the differences. *Note that the information show
 ```
 
 ## Images
-(/img/1.png)
-(/img/1.png)
-(/img/1.png)
-(/img/1.png)
-<img src="http://farm7.static.flickr.com/6177/6168425725_87de9089e7_z.jpg" alt="Screenshot1" />
-<img src="http://farm8.staticflickr.com/7034/6417218835_21f8c4a558_z.jpg" alt="Screenshot2" />
+![Image 1](/img/1.png)
+![Image 2](/img/2.png)
+![Image 3](/img/3.png)
+![Image 4](/img/4.png)
+![Image 5](/img/5.png)
+
 
 
