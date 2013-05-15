@@ -1,29 +1,16 @@
-Yii Debug Toolbar
+K Yii Debug Toolbar
 =================
 
-The Yii Debug Toolbar is a configurable set of panels that display various
-debug information about the current request/response and when clicked, display
-more details about the panel's content.
+This fork is a modified template of the [yii-debug-toolbar](https://github.com/malyshev/yii-debug-toolbar). 
 
-It is a ported to PHP famous [Django Debug Toolbar](/django-debug-toolbar/django-debug-toolbar/).
+It is a minimalistic theme that takes up signficantly less screen space than the original.
 
-Currently, the following panels have been written and are working:
-
-* Server info
-* Request timer
-* A list of superglobals
-* Application settings
-* SQL queries including time to execute and param bindings
-* Logging output via Yii built-in logging
-
+See [images](#images) below for the differences. *Note that the information shown does differ slightly.*
 
 ## Installation
 
-Extract the [yii-debug-toolbar](/malyshev/yii-debug-toolbar/) from archive under protected/extensions
-
-## Usage and Configuration
-
-For use [yii-debug-toolbar](/malyshev/yii-debug-toolbar/) need to specify new `route` in `log` component:
+* Extract the archive into **protected/extensions/yii-debug-toolbar**
+* Add configuration. Note that the class is called *KToolbarRoute*:
 
 ```php
 <?php
@@ -32,7 +19,7 @@ For use [yii-debug-toolbar](/malyshev/yii-debug-toolbar/) need to specify new `r
         'class'=>'CLogRouter',
         'routes'=>array(
             array(
-                'class'=>'ext.yii-debug-toolbar.YiiDebugToolbarRoute',
+                'class'=>'ext.yii-debug-toolbar.KToolbarRoute',
                 // Access is restricted by default to the localhost
                 //'ipFilters'=>array('127.0.0.1','192.168.1.*', 88.23.23.0/24),
             ),
@@ -54,11 +41,11 @@ For use [yii-debug-toolbar](/malyshev/yii-debug-toolbar/) need to specify new `r
 	),
 ```
 
-## TODOs and BUGS
-
-See: [issues](/malyshev/yii-debug-toolbar/issues)
-
-## Working preview
+## Images
+(/img/1.png)
+(/img/1.png)
+(/img/1.png)
+(/img/1.png)
 <img src="http://farm7.static.flickr.com/6177/6168425725_87de9089e7_z.jpg" alt="Screenshot1" />
 <img src="http://farm8.staticflickr.com/7034/6417218835_21f8c4a558_z.jpg" alt="Screenshot2" />
 
